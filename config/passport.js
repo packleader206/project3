@@ -1,3 +1,6 @@
+// JWT (JSON Web Tokens), used with Passport for API authentication
+// JSON Web Token (JWT) defines a compact and self-contained way for securely transmitting information between parties as a JSON object
+
 const JwtStrategy = require("passport-jwt").Strategy;
 const ExtractJwt = require("passport-jwt").ExtractJwt;
 const mongoose = require("mongoose");
